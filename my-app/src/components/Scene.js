@@ -49,7 +49,7 @@ const Scene = () => {
 
             //Sphere
             const geometry = new THREE.SphereGeometry( 0.8, 32, 16 );
-            const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
+            const material = new THREE.MeshBasicMaterial( { color: 0xfffA00 } );
             const sphere = new THREE.Mesh( geometry, material );
             scene.add( sphere );
             //sphere.position.set(2,0.5,0) // posicion del objeto en todas las direcciones
